@@ -24,5 +24,6 @@
         <%} else {%>
         <input type="button" value="ok"/>
         <%} %>
+        <p><a href="usebean.jsp">Use Bean Sample</a></p>
     </body>
 </html>
