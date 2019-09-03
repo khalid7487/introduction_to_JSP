@@ -4,9 +4,17 @@
         <servlet-name>Test</servlet-name>
         <servlet-class>testservlet.Test</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>handleFormData</servlet-name>
+        <servlet-class>testservlet.handleFormData</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Test</servlet-name>
         <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>handleFormData</servlet-name>
+        <url-pattern>/handleFormData</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

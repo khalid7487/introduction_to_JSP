@@ -26,6 +26,7 @@
         <%} %>
         <p><a href="usebean.jsp">Use Bean Sample</a></p>
         <p> <a href="test">Sample servlet</a></p>
+        <p> <a href="servletformdata.jsp">Handle form data Sample Servlet</a></p>
     </body>
     
 </html>
